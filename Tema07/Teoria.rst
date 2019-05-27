@@ -106,35 +106,6 @@ La norma IEEE 802.11 fue diseñada para sustituir el equivalente a las capas fí
 .. figure:: images/tema07-008.png
 
 
-Trama 802.11 (Wi-Fi)
-++++++++++++++++++++
-
-
-.. figure:: images/tema07-010.png
-
-
-**Comparativa cabecera de trama wifi vs ethernet**
-
-
-.. figure:: images/tema07-011.png
-
-   **Cabecera 802.11**
-
-   - **Dirección 1** (Destination Address (**DA**)): dirección MAC del nodo final.
-   - **Dirección 2** (Source Address (**SA**)): dirección MAC del nodo inicial.
-   - **Dirección 3** (Receiver Address (**RA**)): dirección MAC que identifica el dispositivo wireless que es el receptor inmediato de la trama.
-   - **Dirección 4** (Transmitter Address (**TA**)): dirección MAC que identifica el dispositivo wireless que transmite la trama.
-
-
-.. figure:: images/tema07-011b.png
-
-   **Cabecera 802.3**
-
-   - **Dirección 1** (Destination Address (**DA**)): dirección MAC del nodo final.
-   - **Dirección 2** (Source Address (**SA**)): dirección MAC del nodo inicial.
-
-
-
 Normas 802.11 más importantes
 ++++++++++++++++++++++++++++++
 
@@ -209,8 +180,6 @@ El **estándar IEEE 802.1x** ofrece una solución a este problema, tanto a redes
   - EAP: Extensible Authentication Protocol
 
 
-
-
 WMAN: WiMAX
 ------------
 
@@ -244,7 +213,6 @@ El ancho de banda y rango del WiMAX lo hacen adecuado para las siguientes aplica
 .. figure:: images/tema07-023.png
 
 
-
 Puntos de acceso (AP: Access Point)
 -----------------------------------
 
@@ -254,7 +222,6 @@ Uso de canales
 Existen 14 canales, aunque en Europa solo se utilizan 13.
 
 .. figure:: images/tema07-031b.png
-
 
 
 Si deseamos crear una red Wi-Fi cuya cobertura esté soportada por varios puntos de acceso, deberemos de establecer los canales de los distintos puntos de acceso de forma que no se solapen. Canales Wi-Fi en 2,4 GHz
